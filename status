@@ -1,0 +1,4 @@
+#!/bin/sh
+#
+
+ps -ef | grep -i 'balance-test.com'

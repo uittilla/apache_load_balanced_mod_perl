@@ -1,0 +1,3 @@
+
+
+/usr/sbin/httpd -d `pwd` -D balance-test.com  -D DEV  -f conf/httpd.conf

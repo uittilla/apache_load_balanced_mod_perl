@@ -1,0 +1,12 @@
+[Thu May 16 09:03:12 2013] [info] Init: Seeding PRNG with 0 bytes of entropy
+[Thu May 16 09:03:12 2013] [info] Init: Generating temporary RSA private keys (512/1024 bits)
+[Thu May 16 09:03:12 2013] [info] Init: Generating temporary DH parameters (512/1024 bits)
+[Thu May 16 09:03:12 2013] [error] (120002)APR does not understand this error code: Cannot create SSLSessionCache DBM file `/export/logs/ssl_gcache_data'
+[Thu May 16 09:03:12 2013] [info] Init: Initializing (virtual) servers for SSL
+[Thu May 16 09:03:12 2013] [info] mod_ssl/2.2.22 compiled against Server: Apache/2.2.22, Library: OpenSSL/1.0.1
+[Thu May 16 09:43:26 2013] [info] Init: Seeding PRNG with 0 bytes of entropy
+[Thu May 16 09:43:26 2013] [info] Init: Generating temporary RSA private keys (512/1024 bits)
+[Thu May 16 09:43:26 2013] [info] Init: Generating temporary DH parameters (512/1024 bits)
+[Thu May 16 09:43:26 2013] [error] (120002)APR does not understand this error code: Cannot create SSLSessionCache DBM file `/export/logs/ssl_gcache_data'
+[Thu May 16 09:43:26 2013] [info] Init: Initializing (virtual) servers for SSL
+[Thu May 16 09:43:26 2013] [info] mod_ssl/2.2.22 compiled against Server: Apache/2.2.22, Library: OpenSSL/1.0.1

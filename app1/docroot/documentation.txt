@@ -1,0 +1,120 @@
+Twitter feed project
+
+Name:  Mark Ibbotson
+email: ibbo@mail.com   
+Tel:   07758593821
+
+[ Summary ]
+
+This document outlines the steps taken when interfacing to Twitter for the obtaining and saving of twitter feeds.
+
+[ Introduction ]
+
+The Coolpink twitter feed project provides the ability to search and save twitter feeds from a given username. The tweets are then stored by default in a username.txt file for further use. The scope of the initial project has been extended to facilitate the storage options for saving data. The application defaults to saving into a text file but additional cmd line options can perform the following services.
+
+  
+ #1 Save to file
+ #2 Save to a database  
+ #3 Read from file
+ #4 Read from database
+ #5 Search for text in tweets
+
+
+[ Outline ]
+
+The user API takes a username parameter and the default action would be to search for a feed by that name. If the feed returns results then the data is saved to file otherwise the user is notified of no data in feed.
+
+
+[ Extending ]
+
+The application can be extended further by completing the database interactions and providing the means to select alternate data sources to twitter. 
+
+In that case I would remove 
+    const FEED_URL = "https://api.twitter.com/1/statuses/user_timeline.json?screen_name=";
+
+replacing it with an array of feed urls which the username can be inserted into at will.
+
+As the application is designed for command line usage It would be beneficial to allow it to be used with a website so user feeds can be stored, read and searched at will. This is already available from the showFeed and display methods which currently print out information but can easily be modified to render to html.
+
+A simple test to look for GET/POST vars over argv vars would suffice.
+
+
+Application
+
+Classes created by user
+
+Storage:     Storage handler (file system and mimics db)
+TwitterFeed: Fetching and formatting of tweets
+
+Class methods
+
+* Storage
+ # openFile:Open a new file handle
+ # writeFile:  Write data to given file handle
+ # readFile: Read data to given file handle
+ # readDatabase: Read from database (not implemented)
+ # writeDatabase:  Write to database (not implemented)
+ # closeFile: Close a current file handle
+
+* TwitterFeed
+ # worker: Start our application
+ # cmdLineArgs: Parses our cmd line args
+ # feedAction: Act on our feed, save either to file or database or indicate no feed
+ # getFeed: Obtains a given twitter feed
+ # showfeed:Parses and prepares a given feed
+ # display: Display feed tweets
+ # showErrors: Display any errors accumalated during runtime 
+
+
+Usage:
+
+Command: php pulldata.php simon 
+Output:  Messages written
+
+Command: php pulldata.php simon file
+Output:  Messages written
+
+Command: php pulldata.php simon db
+Output: 
+insert into tweets (name, text) values ('simon', 'Hi @dteten, what's your email?');	
+insert into tweets (name, text) values ('simon', 'Please +K my influence in Cloud ...');
+...
+
+Command: php pulldata.php simon read
+Output: 
+...
+5, Hi @dteten, what's your email?
+6, Please +K my influence in Cloud Computing on @klout http://t.co/mNdzePLz
+...
+
+Command: php pulldata.php simon read nodejs
+Output: 
+Scanning for 'nodejs'
+19, Nice! “@jinman: Cool - #nodejs client for #dynamodb - http://t.co/Z4xbjvIK #aws”
+
+
+# Test missing feed. Looking to hit the database (not implemented)
+Command: php pulldata.php Bob read
+Output: 0, select * from tweets where name = 'Bob'
+
+Web Usage:
+
+The application can also be used via a web server. To use this feature edit pulldata.php and uncomment out the bottom 'new TwitterFeed();'
+
+http://server.com/pulldata.php?user=Mark
+http://server.com/pulldata.php?user=Mark&storage=file
+http://server.com/pulldata.php?user=Mark&storage=db
+http://server.com/pulldata.php?user=Mark&storage=read
+http://server.com/pulldata.php?user=Mark&storage=read&pattern=OKLAHOMA
+
+
+[ Testing ]
+
+A basic phpUnit test bed is also available within test.php
+Run with phpunit --colors  test.php
+
+These tests are based upon file operations and check read/ write and for data 
+
+
+
+

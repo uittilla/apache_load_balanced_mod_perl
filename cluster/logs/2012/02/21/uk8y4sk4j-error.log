@@ -1,0 +1,806 @@
+[Tue Feb 21 11:56:53 2012] [info] [client 10.1.1.104] Connection to child 6 established (server balance-test.com:443)
+[Tue Feb 21 11:56:53 2012] [info] Seeding PRNG with 0 bytes of entropy
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1916): OpenSSL: Handshake: start
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: before/accept initialization
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1909): OpenSSL: read 11/11 bytes from BIO#b86fd1c0 [mem: b872efb0] (BIO dump follows)
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1842): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0000: 16 03 01 00 b7 01 00 00-b3 03 01                 ...........      |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1887): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1909): OpenSSL: read 177/177 bytes from BIO#b86fd1c0 [mem: b872efbb] (BIO dump follows)
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1842): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0000: 4f 43 86 85 cc 83 93 c0-59 71 a0 49 72 f0 22 60  OC......Yq.Ir."` |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0010: e2 40 17 60 ee a3 16 ee-57 88 4b e1 3d 0f 10 d5  .@.`....W.K.=... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0020: 00 00 48 c0 0a c0 14 00-88 00 87 00 39 00 38 c0  ..H.........9.8. |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0030: 0f c0 05 00 84 00 35 c0-07 c0 09 c0 11 c0 13 00  ......5......... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0040: 45 00 44 00 66 00 33 00-32 c0 0c c0 0e c0 02 c0  E.D.f.3.2....... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0050: 04 00 96 00 41 00 04 00-05 00 2f c0 08 c0 12 00  ....A...../..... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0060: 16 00 13 c0 0d c0 03 fe-ff 00 0a 02 01 00 00 41  ...............A |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0070: 00 00 00 15 00 13 00 00-10 62 61 6c 61 6e 63 65  .........balance |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0080: 2d 74 65 73 74 2e 63 6f-6d ff 01 00 01 00 00 0a  -test.com....... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0090: 00 08 00 06 00 17 00 18-00 19 00 0b 00 02 01 00  ................ |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 00a0: 00 23 00 00 33 74 00 00-00 05 00 05 01           .#..3t.......    |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1885): | 0177 - <SPACES/NULS>
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1887): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(2037): [client 10.1.1.104] SSL virtual host for servername balance-test.com found
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 read client hello A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write server hello A
+[Tue Feb 21 11:56:53 2012] [info] [client 10.1.1.104] Connection to child 1 established (server balance-test.com:443)
+[Tue Feb 21 11:56:53 2012] [info] Seeding PRNG with 0 bytes of entropy
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write certificate A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1324): [client 10.1.1.104] handing out temporary 1024 bit DH key
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1916): OpenSSL: Handshake: start
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: before/accept initialization
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1909): OpenSSL: read 11/11 bytes from BIO#b87408c0 [mem: b872efb0] (BIO dump follows)
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1842): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0000: 16 03 01 00 b7 01 00 00-b3 03 01                 ...........      |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1887): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1909): OpenSSL: read 177/177 bytes from BIO#b87408c0 [mem: b872efbb] (BIO dump follows)
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1842): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0000: 4f 43 86 85 ad 4c ad ab-bd 16 73 3c 91 fb 20 c8  OC...L....s<.. . |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0010: 32 d0 d2 59 e1 16 02 94-e6 9b 42 12 10 fc d4 9b  2..Y......B..... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0020: 00 00 48 c0 0a c0 14 00-88 00 87 00 39 00 38 c0  ..H.........9.8. |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0030: 0f c0 05 00 84 00 35 c0-07 c0 09 c0 11 c0 13 00  ......5......... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0040: 45 00 44 00 66 00 33 00-32 c0 0c c0 0e c0 02 c0  E.D.f.3.2....... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0050: 04 00 96 00 41 00 04 00-05 00 2f c0 08 c0 12 00  ....A...../..... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0060: 16 00 13 c0 0d c0 03 fe-ff 00 0a 02 01 00 00 41  ...............A |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0070: 00 00 00 15 00 13 00 00-10 62 61 6c 61 6e 63 65  .........balance |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0080: 2d 74 65 73 74 2e 63 6f-6d ff 01 00 01 00 00 0a  -test.com....... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0090: 00 08 00 06 00 17 00 18-00 19 00 0b 00 02 01 00  ................ |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 00a0: 00 23 00 00 33 74 00 00-00 05 00 05 01           .#..3t.......    |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1885): | 0177 - <SPACES/NULS>
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1887): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(2037): [client 10.1.1.104] SSL virtual host for servername balance-test.com found
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 read client hello A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write server hello A
+[Tue Feb 21 11:56:53 2012] [info] [client 10.1.1.104] Connection to child 7 established (server balance-test.com:443)
+[Tue Feb 21 11:56:53 2012] [info] Seeding PRNG with 0 bytes of entropy
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write certificate A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1324): [client 10.1.1.104] handing out temporary 1024 bit DH key
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1916): OpenSSL: Handshake: start
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: before/accept initialization
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1909): OpenSSL: read 11/11 bytes from BIO#b86fd1c0 [mem: b872efb0] (BIO dump follows)
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1842): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0000: 16 03 01 00 b7 01 00 00-b3 03 01                 ...........      |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1887): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1909): OpenSSL: read 177/177 bytes from BIO#b86fd1c0 [mem: b872efbb] (BIO dump follows)
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1842): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0000: 4f 43 86 85 1a 35 9e b6-db 57 5b e4 42 2c c6 cf  OC...5...W[.B,.. |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0010: 00 49 d5 a4 4c cc 20 af-fd b6 da 3c 37 98 7d 0b  .I..L. ....<7.}. |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0020: 00 00 48 c0 0a c0 14 00-88 00 87 00 39 00 38 c0  ..H.........9.8. |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0030: 0f c0 05 00 84 00 35 c0-07 c0 09 c0 11 c0 13 00  ......5......... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0040: 45 00 44 00 66 00 33 00-32 c0 0c c0 0e c0 02 c0  E.D.f.3.2....... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0050: 04 00 96 00 41 00 04 00-05 00 2f c0 08 c0 12 00  ....A...../..... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0060: 16 00 13 c0 0d c0 03 fe-ff 00 0a 02 01 00 00 41  ...............A |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0070: 00 00 00 15 00 13 00 00-10 62 61 6c 61 6e 63 65  .........balance |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0080: 2d 74 65 73 74 2e 63 6f-6d ff 01 00 01 00 00 0a  -test.com....... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0090: 00 08 00 06 00 17 00 18-00 19 00 0b 00 02 01 00  ................ |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 00a0: 00 23 00 00 33 74 00 00-00 05 00 05 01           .#..3t.......    |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1885): | 0177 - <SPACES/NULS>
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1887): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(2037): [client 10.1.1.104] SSL virtual host for servername balance-test.com found
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 read client hello A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write server hello A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write certificate A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1324): [client 10.1.1.104] handing out temporary 1024 bit DH key
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write key exchange A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write server done A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 flush data
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write key exchange A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write server done A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 flush data
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write key exchange A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write server done A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 flush data
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1920): OpenSSL: I/O error, 5 bytes expected to read on BIO#b86fd1c0 [mem: b872efb0]
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1953): OpenSSL: Exit: error in SSLv3 read client certificate A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1953): OpenSSL: Exit: error in SSLv3 read client certificate A
+[Tue Feb 21 11:56:53 2012] [info] [client 10.1.1.104] (70014)End of file found: SSL handshake interrupted by system [Hint: Stop button pressed in browser?!]
+[Tue Feb 21 11:56:53 2012] [info] [client 10.1.1.104] Connection closed to child 6 with abortive shutdown (server balance-test.com:443)
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1920): OpenSSL: I/O error, 5 bytes expected to read on BIO#b87408c0 [mem: b872efb0]
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1953): OpenSSL: Exit: error in SSLv3 read client certificate A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1953): OpenSSL: Exit: error in SSLv3 read client certificate A
+[Tue Feb 21 11:56:53 2012] [info] [client 10.1.1.104] (70014)End of file found: SSL handshake interrupted by system [Hint: Stop button pressed in browser?!]
+[Tue Feb 21 11:56:53 2012] [info] [client 10.1.1.104] Connection closed to child 1 with abortive shutdown (server balance-test.com:443)
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1920): OpenSSL: I/O error, 5 bytes expected to read on BIO#b86fd1c0 [mem: b872efb0]
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1953): OpenSSL: Exit: error in SSLv3 read client certificate A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1953): OpenSSL: Exit: error in SSLv3 read client certificate A
+[Tue Feb 21 11:56:53 2012] [info] [client 10.1.1.104] (70014)End of file found: SSL handshake interrupted by system [Hint: Stop button pressed in browser?!]
+[Tue Feb 21 11:56:53 2012] [info] [client 10.1.1.104] Connection closed to child 7 with abortive shutdown (server balance-test.com:443)
+[Tue Feb 21 11:56:53 2012] [info] [client 10.1.1.104] Connection to child 8 established (server balance-test.com:443)
+[Tue Feb 21 11:56:53 2012] [info] Seeding PRNG with 0 bytes of entropy
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1916): OpenSSL: Handshake: start
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: before/accept initialization
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1909): OpenSSL: read 11/11 bytes from BIO#b86fd1c0 [mem: b872efb0] (BIO dump follows)
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1842): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0000: 16 03 01 00 b7 01 00 00-b3 03 01                 ...........      |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1887): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1909): OpenSSL: read 177/177 bytes from BIO#b86fd1c0 [mem: b872efbb] (BIO dump follows)
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1842): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0000: 4f 43 86 85 d4 82 1d cb-4d ba f4 b1 06 88 e1 d8  OC......M....... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0010: 39 f7 ba 18 da 8f e3 e0-dd ef 45 c2 dd 0e 1c f6  9.........E..... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0020: 00 00 48 c0 0a c0 14 00-88 00 87 00 39 00 38 c0  ..H.........9.8. |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0030: 0f c0 05 00 84 00 35 c0-07 c0 09 c0 11 c0 13 00  ......5......... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0040: 45 00 44 00 66 00 33 00-32 c0 0c c0 0e c0 02 c0  E.D.f.3.2....... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0050: 04 00 96 00 41 00 04 00-05 00 2f c0 08 c0 12 00  ....A...../..... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0060: 16 00 13 c0 0d c0 03 fe-ff 00 0a 02 01 00 00 41  ...............A |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0070: 00 00 00 15 00 13 00 00-10 62 61 6c 61 6e 63 65  .........balance |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0080: 2d 74 65 73 74 2e 63 6f-6d ff 01 00 01 00 00 0a  -test.com....... |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 0090: 00 08 00 06 00 17 00 18-00 19 00 0b 00 02 01 00  ................ |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1881): | 00a0: 00 23 00 00 33 74 00 00-00 05 00 05 01           .#..3t.......    |
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1885): | 0177 - <SPACES/NULS>
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1887): +-------------------------------------------------------------------------+
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(2037): [client 10.1.1.104] SSL virtual host for servername balance-test.com found
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 read client hello A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write server hello A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write certificate A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1324): [client 10.1.1.104] handing out temporary 1024 bit DH key
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write key exchange A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 write server done A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1924): OpenSSL: Loop: SSLv3 flush data
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_io.c(1920): OpenSSL: I/O error, 5 bytes expected to read on BIO#b86fd1c0 [mem: b872efb0]
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1953): OpenSSL: Exit: error in SSLv3 read client certificate A
+[Tue Feb 21 11:56:53 2012] [debug] ssl_engine_kernel.c(1953): OpenSSL: Exit: error in SSLv3 read client certificate A
+[Tue Feb 21 11:56:53 2012] [info] [client 10.1.1.104] (70014)End of file found: SSL handshake interrupted by system [Hint: Stop button pressed in browser?!]
+[Tue Feb 21 11:56:53 2012] [info] [client 10.1.1.104] Connection closed to child 8 with abortive shutdown (server balance-test.com:443)
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value (null) for stickysession BALANCEID
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(1003): proxy: Entering byrequests for BALANCER (balancer://cluster)
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(1046): proxy: byrequests selected worker "http://app1.balance-test.com:8000" : busy 0 : lbstatus -3
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/ to app1.balance-test.com:8000
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(2153): proxy: connected / to app1.balance-test.com:8000
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/images/Screenshot.png
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/images/Screenshot.png
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/images/Screenshot.png
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/images/Screenshot.png to app1.balance-test.com:8000
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(2153): proxy: connected /images/Screenshot.png to app1.balance-test.com:8000
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_http.c(1820): proxy: header only
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:56:57 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:56:57 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:57:15 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 11:57:15 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:57:15 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:57:15 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php
+[Tue Feb 21 11:57:15 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:57:15 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php
+[Tue Feb 21 11:57:15 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:57:15 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php to app1.balance-test.com:8000
+[Tue Feb 21 11:57:15 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php to app1.balance-test.com:8000
+[Tue Feb 21 11:57:15 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 11:57:15 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 11:57:15 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 11:57:16 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:57:16 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:57:16 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:57:16 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 11:57:16 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:57:16 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:57:16 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:57:16 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:57:16 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:57:16 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:57:16 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:57:16 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:57:16 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:57:16 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:57:16 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:57:42 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 11:57:42 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:57:42 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:57:42 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?name=Mark;storage=read;pattern=the
+[Tue Feb 21 11:57:42 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:57:42 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?name=Mark;storage=read;pattern=the
+[Tue Feb 21 11:57:42 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:57:42 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?name=Mark;storage=read;pattern=the to app1.balance-test.com:8000
+[Tue Feb 21 11:57:42 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?name=Mark;storage=read;pattern=the to app1.balance-test.com:8000
+[Tue Feb 21 11:57:42 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 11:57:42 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 11:57:42 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 11:57:43 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:57:43 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:57:43 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:57:43 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 11:57:43 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:57:43 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:57:43 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:57:43 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:57:43 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:57:43 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:57:43 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:57:43 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:57:43 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:57:43 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:57:43 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:58:03 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 11:58:03 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:58:03 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:58:03 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark;storage=file
+[Tue Feb 21 11:58:03 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:58:03 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark;storage=file
+[Tue Feb 21 11:58:03 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:58:03 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark;storage=file to app1.balance-test.com:8000
+[Tue Feb 21 11:58:03 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark;storage=file to app1.balance-test.com:8000
+[Tue Feb 21 11:58:03 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 11:58:03 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 11:58:03 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 11:58:04 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:58:04 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:58:04 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:58:04 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 11:58:04 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:58:04 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:58:04 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:58:04 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:58:04 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:58:04 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:58:04 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:58:04 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:58:04 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:58:04 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:58:04 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:58:17 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 11:58:17 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:58:17 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:58:17 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file
+[Tue Feb 21 11:58:17 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:58:17 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file
+[Tue Feb 21 11:58:17 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:58:17 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file to app1.balance-test.com:8000
+[Tue Feb 21 11:58:17 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=file to app1.balance-test.com:8000
+[Tue Feb 21 11:58:17 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 11:58:17 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 11:58:17 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 11:58:19 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:58:19 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:58:19 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:58:19 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 11:58:19 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:58:19 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:58:19 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:58:19 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:58:19 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:58:19 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:58:19 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:58:19 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:58:19 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:58:19 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:58:19 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:58:55 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 11:58:55 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:58:55 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:58:55 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file
+[Tue Feb 21 11:58:55 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:58:55 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file
+[Tue Feb 21 11:58:55 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:58:55 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file to app1.balance-test.com:8000
+[Tue Feb 21 11:58:55 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=file to app1.balance-test.com:8000
+[Tue Feb 21 11:58:55 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 11:58:55 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 11:58:55 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 11:58:57 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:58:57 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:58:57 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:58:57 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 11:58:57 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:58:57 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:58:57 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:58:57 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:58:57 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:58:57 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:58:57 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:58:57 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:58:57 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:58:57 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:58:57 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 11:59:10 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:59:10 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 11:59:10 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 11:59:10 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 11:59:10 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 11:59:10 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:59:10 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 11:59:10 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 11:59:10 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:59:10 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 11:59:10 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 11:59:10 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:01:11 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:11 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:01:11 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:01:11 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 12:01:11 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:11 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:11 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:11 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:11 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:11 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:11 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:13 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:13 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:14 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:14 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:18 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:01:18 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:18 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:18 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file
+[Tue Feb 21 12:01:18 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:18 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file
+[Tue Feb 21 12:01:18 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:18 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file to app1.balance-test.com:8000
+[Tue Feb 21 12:01:18 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=file to app1.balance-test.com:8000
+[Tue Feb 21 12:01:19 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:19 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:19 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:19 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:01:19 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:19 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:19 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:19 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:19 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:19 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:19 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:19 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:19 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:19 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:19 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read&pattern=The
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read&pattern=The
+[Tue Feb 21 12:01:31 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:31 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read&pattern=The to app1.balance-test.com:8000
+[Tue Feb 21 12:01:31 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read&pattern=The to app1.balance-test.com:8000
+[Tue Feb 21 12:01:31 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 12:01:31 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 12:01:31 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:31 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:31 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:31 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:31 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:31 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:31 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:01:39 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:39 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:01:39 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:01:39 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 12:01:39 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 12:01:39 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:39 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:39 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:39 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:39 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:39 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:39 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read&pattern=anyway
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read&pattern=anyway
+[Tue Feb 21 12:01:46 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:46 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read&pattern=anyway to app1.balance-test.com:8000
+[Tue Feb 21 12:01:46 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read&pattern=anyway to app1.balance-test.com:8000
+[Tue Feb 21 12:01:46 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 12:01:46 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 12:01:46 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:46 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:01:46 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:01:46 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:46 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:01:46 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:01:46 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:02:56 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:02:56 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:02:56 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:02:56 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read&pattern=anyway
+[Tue Feb 21 12:02:56 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:02:56 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read&pattern=anyway
+[Tue Feb 21 12:02:56 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:02:56 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read&pattern=anyway to app1.balance-test.com:8000
+[Tue Feb 21 12:02:56 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read&pattern=anyway to app1.balance-test.com:8000
+[Tue Feb 21 12:02:56 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 12:02:56 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 12:02:56 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:02:56 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:02:56 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:02:57 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:02:57 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:02:57 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:02:57 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:02:57 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:02:57 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:02:57 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:02:57 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:02:57 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:02:57 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:02:57 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:02:57 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:03:01 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:03:01 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:03:01 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:03:01 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:03:01 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:03:01 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:03:01 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:03:01 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:03:01 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:03:06 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:03:06 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:03:06 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:03:06 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file
+[Tue Feb 21 12:03:06 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:03:06 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file
+[Tue Feb 21 12:03:06 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:03:06 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file to app1.balance-test.com:8000
+[Tue Feb 21 12:03:06 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=file to app1.balance-test.com:8000
+[Tue Feb 21 12:03:07 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:03:07 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:03:07 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:03:07 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:03:07 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:03:07 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:03:07 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:03:07 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:03:07 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:03:07 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:03:07 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:03:07 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:03:07 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:03:07 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:03:07 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:03:45 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:03:45 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:03:45 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:03:45 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file
+[Tue Feb 21 12:03:45 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:03:45 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file
+[Tue Feb 21 12:03:45 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:03:45 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file to app1.balance-test.com:8000
+[Tue Feb 21 12:03:45 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=file to app1.balance-test.com:8000
+[Tue Feb 21 12:03:45 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 12:03:45 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 12:03:45 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 12:03:47 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:03:47 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:03:47 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:03:47 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:03:47 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:03:47 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:03:47 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:03:47 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:03:47 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:03:47 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:03:47 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:03:47 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:03:47 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:03:47 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:03:47 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:04:16 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:04:16 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:04:16 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:04:16 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file
+[Tue Feb 21 12:04:16 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:04:16 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file
+[Tue Feb 21 12:04:16 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:04:16 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=file to app1.balance-test.com:8000
+[Tue Feb 21 12:04:16 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=file to app1.balance-test.com:8000
+[Tue Feb 21 12:04:16 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 12:04:16 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 12:04:16 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 12:04:18 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:04:18 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:04:18 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:04:18 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:04:18 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:04:18 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:04:18 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:04:18 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:04:18 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:04:18 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:04:18 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:04:18 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:04:18 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:04:18 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:04:18 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:04:26 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:04:26 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:04:26 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:04:26 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=db
+[Tue Feb 21 12:04:26 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:04:26 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=db
+[Tue Feb 21 12:04:26 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:04:26 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=db to app1.balance-test.com:8000
+[Tue Feb 21 12:04:26 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=db to app1.balance-test.com:8000
+[Tue Feb 21 12:04:26 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 12:04:26 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 12:04:26 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 12:04:27 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:04:27 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:04:27 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:04:27 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:04:27 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:04:27 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:04:27 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:04:27 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:04:27 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:04:27 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:04:27 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:04:27 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:04:27 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:04:27 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:04:27 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:05:42 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:05:42 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:05:42 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:05:42 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=db
+[Tue Feb 21 12:05:42 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:05:42 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=db
+[Tue Feb 21 12:05:42 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:05:42 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=db to app1.balance-test.com:8000
+[Tue Feb 21 12:05:42 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=db to app1.balance-test.com:8000
+[Tue Feb 21 12:05:42 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 12:05:42 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 12:05:43 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:05:43 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:05:43 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:05:43 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:05:43 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:05:43 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:05:43 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:05:43 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:05:43 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:05:43 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:05:43 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:05:43 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:05:43 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:05:43 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:05:43 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read
+[Tue Feb 21 12:05:50 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:05:50 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:05:50 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read to app1.balance-test.com:8000
+[Tue Feb 21 12:05:50 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 12:05:50 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 12:05:50 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:05:50 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:05:50 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:05:50 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:05:50 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:05:50 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:05:50 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:05:59 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/pulldata.php
+[Tue Feb 21 12:05:59 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:05:59 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:05:59 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read&pattern=OKLAHOMA
+[Tue Feb 21 12:05:59 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:05:59 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read&pattern=OKLAHOMA
+[Tue Feb 21 12:05:59 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:05:59 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/pulldata.php?user=Mark&storage=read&pattern=OKLAHOMA to app1.balance-test.com:8000
+[Tue Feb 21 12:05:59 2012] [debug] proxy_util.c(2153): proxy: connected /pulldata.php?user=Mark&storage=read&pattern=OKLAHOMA to app1.balance-test.com:8000
+[Tue Feb 21 12:05:59 2012] [debug] proxy_util.c(2244): proxy: HTTP: backend socket is disconnected.
+[Tue Feb 21 12:05:59 2012] [debug] proxy_util.c(2308): proxy: HTTP: fam 2 socket created to connect to app1.balance-test.com
+[Tue Feb 21 12:05:59 2012] [debug] proxy_util.c(2414): proxy: HTTP: connection complete to 10.1.1.104:8000 (app1.balance-test.com)
+[Tue Feb 21 12:05:59 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:05:59 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:05:59 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
+[Tue Feb 21 12:06:00 2012] [debug] mod_proxy_balancer.c(46): proxy: BALANCER: canonicalising URL //cluster/favicon.ico
+[Tue Feb 21 12:06:00 2012] [debug] mod_proxy_balancer.c(280): proxy: BALANCER: Found value balancer.app1 for stickysession BALANCEID
+[Tue Feb 21 12:06:00 2012] [debug] mod_proxy_balancer.c(290): proxy: BALANCER: Found route app1
+[Tue Feb 21 12:06:00 2012] [debug] mod_proxy_balancer.c(581): proxy: BALANCER (balancer://cluster) worker (http://app1.balance-test.com:8000) rewritten to http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:06:00 2012] [debug] mod_proxy.c(998): Running scheme balancer handler (attempt 0)
+[Tue Feb 21 12:06:00 2012] [debug] mod_proxy_http.c(1940): proxy: HTTP: serving URL http://app1.balance-test.com:8000/favicon.ico
+[Tue Feb 21 12:06:00 2012] [debug] proxy_util.c(1999): proxy: HTTP: has acquired connection for (app1.balance-test.com)
+[Tue Feb 21 12:06:00 2012] [debug] proxy_util.c(2055): proxy: connecting http://app1.balance-test.com:8000/favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:06:00 2012] [debug] proxy_util.c(2153): proxy: connected /favicon.ico to app1.balance-test.com:8000
+[Tue Feb 21 12:06:00 2012] [debug] mod_proxy_http.c(1723): proxy: start body send
+[Tue Feb 21 12:06:00 2012] [debug] mod_proxy_http.c(1816): proxy: end body send
+[Tue Feb 21 12:06:00 2012] [debug] proxy_util.c(2017): proxy: HTTP: has released connection for (app1.balance-test.com)
